@@ -6,7 +6,7 @@ const instance = axios.create({
   // 它可以通过设置一个 `baseURL` 便于为 axios 实例的方法传递相对 URL
   baseurl: 'http://localhost:8080',
   // 设置超时时间
-  timeout: 5000
+  timeout: 15000
 
 })
 // 添加请求拦截器

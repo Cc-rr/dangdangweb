@@ -75,8 +75,8 @@ export default {
       require: true
     }
   },
-  //去看看视频
-  filters: {                  //filters是配置项
+  // 去看看视频
+  filters: { // filters是配置项
     formatYi (value) {
       var Yi = Math.pow(10, 8)
       if (value > Yi) {
